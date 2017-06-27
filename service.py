@@ -2,7 +2,7 @@
 
 
 def handler(event, context):
-    print("hello world!")
+    print("HELLO WORLD!")
     e = event.get('e')
     pi = event.get('pi')
     print("e is %s and pi is %s" % (e, pi))
